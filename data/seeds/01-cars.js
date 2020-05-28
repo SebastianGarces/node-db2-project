@@ -6,34 +6,36 @@ exports.seed = function (knex) {
 			// Inserts seed entries
 			return knex("cars").insert([
 				{
-					name: "dragon fruit",
-					avgWeightOz: 16.7,
-					delicious: true,
-					color: "red",
+					vin: 'f53g13g1s54g987s635',
+					mileage: 6513.35,
+					make: 'chevy',
+					model: 'malibu',
 				},
 				{
-					name: "durian",
-					avgWeightOz: 52.9,
-					delicious: false,
-					color: "yellow",
-				},
-				{
-					name: "rambutan",
-					avgWeightOz: 1.1,
-					delicious: true,
-					color: "pink",
-				},
-				{
-					name: "lingonberry",
-					avgWeightOz: 0.01,
-					delicious: true,
-					color: "red",
-				},
-				{
-					name: "golden gooseberries",
-					avgWeightOz: 0.02,
-					delicious: false,
-					color: "yellow",
+					vin: 'f53g13kjha54g987s635',
+					mileage: 6513.35,
+					make: 'chevy',
+					model: 'cruze',
+				},				{
+					vin: 'f53g13g1s54gasds635',
+					mileage: 6513.35,
+					make: 'chevy',
+					model: 'trax',
+				},				{
+					vin: 'f53asdf1s54g987s635',
+					mileage: 6513.35,
+					make: 'chevy',
+					model: 'equinox',
+				},				{
+					vin: 'f53g13g1sasdf7s635',
+					mileage: 6513.35,
+					make: 'chevy',
+					model: 'blazer',
+				},				{
+					vin: 'asdf13g1s54g987s635',
+					mileage: 6513.35,
+					make: 'chevy',
+					model: 'traverse',
 				},
 			]);
 		});
